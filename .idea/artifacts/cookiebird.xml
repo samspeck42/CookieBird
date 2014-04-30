@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="cookiebird">
+    <output-path>$PROJECT_DIR$/classes/artifacts/cookiebird</output-path>
+    <root id="archive" name="cookiebird.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="CookieBird" />
+      <element id="library" level="module" name="gson-2.2.4.jar" module-name="CookieBird" />
+    </root>
+  </artifact>
+</component>

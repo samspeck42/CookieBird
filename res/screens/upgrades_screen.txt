@@ -1,0 +1,84 @@
+{
+	"layout": [
+		{
+			"type": "TextLineComponent",
+			"text": "Upgrades",
+			"font": "arcadeclassic.ttf",
+			"size": 50,
+			"style": "Plain",
+			"color": [1, 0.5, 0],
+			"position": [220, 50],
+			"origin": "center",
+			"id": "game_over_text"
+		},
+		{
+			"type": "ImageComponent",
+			"image_path": "/upgrades_screen_panel.png",
+			"position": [220, 300],
+			"origin": "center",
+			"id": "upgrades_screen_panel"
+		},
+		{
+			"type": "TextLineComponent",
+			"text": "Description",
+			"font": "arcadeclassic.ttf",
+			"size": 24,
+			"style": "Plain",
+			"color": [1, 0, 0],
+			"position": [20, 226],
+			"origin": "left",
+			"id": "description_text"
+		},
+		{
+			"type": "TextBoxComponent",
+			"text": "Select upgrade for description",
+			"font": "arcadeclassic.ttf",
+			"size": 16,
+			"style": "Plain",
+			"color": [1, 1, 1],
+			"position": [20, 230],
+			"width": 240,
+			"height": 50,
+			"origin": "top_left",
+			"id": "description_text_box"
+		},
+		{
+			"type": "ImageComponent",
+			"image_path": "/cookie-20.png",
+			"position": [266, 206],
+			"origin": "top_left",
+			"visible": false,
+			"id": "cookie_icon_image"
+		},
+		{
+			"type": "TextLineComponent",
+			"text": "",
+			"font": "arcadeclassic.ttf",
+			"size": 24,
+			"style": "Plain",
+			"color": [0, 1, 0],
+			"position": [290, 226],
+			"origin": "left",
+			"id": "upgrade_cost_text"
+		},
+		{
+			"type": "Button",
+			"enabled_image_path": "/buttons/buy_upgrade_button_enabled.png",
+			"pressed_image_path": "/buttons/buy_upgrade_button_pressed.png",
+			"disabled_image_path": "/buttons/buy_upgrade_button_pressed.png",
+			"on_click": "purchaseUpgrade",
+			"position": [266, 230],
+			"origin": "top_left",
+			"id": "buy_upgrade_button"
+		},
+		{
+			"type": "Button",
+			"enabled_image_path": "/buttons/restart_game_button_enabled.png",
+			"pressed_image_path": "/buttons/restart_game_button_pressed.png",
+			"on_click": "restartGame",
+			"position": [220, 570],
+			"origin": "center",
+			"id": "restart_button"
+		}
+	]
+}

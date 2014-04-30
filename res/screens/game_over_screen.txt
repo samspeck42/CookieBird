@@ -1,0 +1,84 @@
+{
+	"layout": [
+		{
+			"type": "TextLineComponent",
+			"text": "Game Over",
+			"font": "arcadeclassic.ttf",
+			"size": 50,
+			"style": "Plain",
+			"color": [1, 0.5, 0],
+			"position": [220, 220],
+			"origin": "center",
+			"id": "game_over_text"
+		},
+		{
+			"type": "ImageComponent",
+			"image_path": "/game_over_panel.png",
+			"position": [220, 320],
+			"origin": "center",
+			"id": "game_over_panel"
+		},
+		{
+			"type": "TextLineComponent",
+			"text": "Cookies This Round",
+			"font": "arcadeclassic.ttf",
+			"size": 26,
+			"style": "Plain",
+			"color": [1, 0, 0],
+			"position": [220, 275],
+			"origin": "center",
+			"id": "cookies_this_round_text"
+		},
+		{
+			"type": "TextLineComponent",
+			"text": "#$numCookiesThisRound#",
+			"font": "arcadeclassic.ttf",
+			"size": 26,
+			"style": "Plain",
+			"color": [1, 1, 1],
+			"position": [220, 305],
+			"origin": "center",
+			"id": "num_cookies_this_round_text"
+		},
+		{
+			"type": "TextLineComponent",
+			"text": "Best",
+			"font": "arcadeclassic.ttf",
+			"size": 26,
+			"style": "Plain",
+			"color": [1, 0, 0],
+			"position": [220, 350],
+			"origin": "center",
+			"id": "best_text"
+		},
+		{
+			"type": "TextLineComponent",
+			"text": "#$highestNumCookies#",
+			"font": "arcadeclassic.ttf",
+			"size": 26,
+			"style": "Plain",
+			"color": [1, 1, 1],
+			"position": [220, 380],
+			"origin": "center",
+			"id": "highest_num_cookies_text"
+		},
+		{
+			"type": "Button",
+			"enabled_image_path": "/buttons/restart_game_button_enabled.png",
+			"pressed_image_path": "/buttons/restart_game_button_pressed.png",
+			"on_click": "restartGame",
+			"position": [150, 440],
+			"origin": "center",
+			"id": "restart_button"
+		},
+		{
+			"type": "Button",
+			"enabled_image_path": "/buttons/upgrades_button_enabled.png",
+			"pressed_image_path": "/buttons/upgrades_button_pressed.png",
+			"on_click": "openUpgradesScreen",
+			"position": [290, 440],
+			"origin": "center",
+			"id": "upgrades_button"
+		}
+	]
+}

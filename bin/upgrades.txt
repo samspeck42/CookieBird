@@ -1,0 +1,81 @@
+{
+	"upgrades": [
+		{
+			"description": "Increases click value by 1 cookie",
+			"value": 1,
+			"cost": 10,
+			"type": "IncreaseClickValue",
+			"icon_image_path": "/icons/click_value_increase_icon.png"
+		},
+		{
+			"description": "Click multiplier increases by 1 more cookie when enough obstacles are passed",
+			"value": 1,
+			"cost": 15,
+			"type": "IncreaseClickMultiplierIncrease",
+			"icon_image_path": "/icons/click_multiplier_increase_icon.png"
+		},
+		{
+			"description": "Obstacles needed to increase multiplier decreases by 1",
+			"value": 1,
+			"cost": 20,
+			"type": "DecreaseNumObstaclesToIncreaseMultiplier",
+			"icon_image_path": "/icons/num_obstacles_decrease_icon.png"
+		},
+		{
+			"description": "Increases click value by 2 cookies",
+			"value": 2,
+			"cost": 100,
+			"type": "IncreaseClickValue",
+			"icon_image_path": "/icons/click_value_increase_icon.png"
+		},
+		{
+			"description": "Click multiplier increases by 2 more cookies when enough obstacles are passed",
+			"value": 2,
+			"cost": 150,
+			"type": "IncreaseClickMultiplierIncrease",
+			"icon_image_path": "/icons/click_multiplier_increase_icon.png"
+		},
+		{
+			"description": "Increases click value by 4 cookies",
+			"value": 2,
+			"cost": 500,
+			"type": "IncreaseClickValue",
+			"icon_image_path": "/icons/click_value_increase_icon.png"
+		},
+		{
+			"description": "Click multiplier increases by 4 more cookies when enough obstacles are passed",
+			"value": 4,
+			"cost": 750,
+			"type": "IncreaseClickMultiplierIncrease",
+			"icon_image_path": "/icons/click_multiplier_increase_icon.png"
+		},
+		{
+			"description": "Obstacles needed to increase multiplier decreases by 2",
+			"value": 2,
+			"cost": 200,
+			"type": "DecreaseNumObstaclesToIncreaseMultiplier",
+			"icon_image_path": "/icons/num_obstacles_decrease_icon.png"
+		},
+		{
+			"description": "Increases click value by 8 cookies",
+			"value": 8,
+			"cost": 1000,
+			"type": "IncreaseClickValue",
+			"icon_image_path": "/icons/click_value_increase_icon.png"
+		},
+		{
+			"description": "Click multiplier increases by 4 more cookies when enough obstacles are passed",
+			"value": 4,
+			"cost": 1500,
+			"type": "IncreaseClickMultiplierIncrease",
+			"icon_image_path": "/icons/click_multiplier_increase_icon.png"
+		},
+		{
+			"description": "Obstacles needed to increase multiplier decreases by 4",
+			"value": 4,
+			"cost": 500,
+			"type": "DecreaseNumObstaclesToIncreaseMultiplier",
+			"icon_image_path": "/icons/num_obstacles_decrease_icon.png"
+		}
+	]
+}

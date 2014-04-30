@@ -1,0 +1,33 @@
+{
+	"layout": [
+		{
+			"type": "TextLineComponent",
+			"text": "#$numObstaclesPassed#",
+			"font": "arcadeclassic.ttf",
+			"size": 60,
+			"style": "Plain",
+			"color": [1, 1, 1],
+			"position": [220, 120],
+			"origin": "center",
+			"id": "obstacles_passed_text"
+		},
+		{
+			"type": "TextLineComponent",
+			"text": "x #$totalNumCookies#",
+			"font": "arcadeclassic.ttf",
+			"size": 24,
+			"style": "Plain",
+			"color": [1, 1, 1],
+			"position": [220, 640],
+			"origin": "center",
+			"id": "num_cookies_text"
+		},
+		{
+			"type": "ImageComponent",
+			"image_path": "/cookie-20.png",
+			"position": [0, 0],
+			"origin": "top_left",
+			"id": "cookie_icon_image"
+		}
+	]
+}
